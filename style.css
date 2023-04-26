@@ -8,8 +8,8 @@
 /* VARIABLES */
 :root {
     --major-bg-color: #eaecee;
-    --minor-bg-color: #000000;
-    --amazon-major-color: #c99857;
+    --minor-bg-color: #f6f6f6;
+    --amazon-major-color: #e49835;
 }
 
 /* BODY */
@@ -64,10 +64,10 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    color: #232323;
+    color: #e5e0e0;
 }
 .header .header-nav .header-container .header-cart {
-    color: #aba4a4;
+    color: #fdf9f9;
     display: flex;
     justify-content: center;
     align-items: center;
