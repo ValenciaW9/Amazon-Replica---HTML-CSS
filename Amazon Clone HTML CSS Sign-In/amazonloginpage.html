@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon Sign Up</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+      }
+      .container {
+        margin: 50px auto;
+        width: 400px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+      h1 {
+        text-align: center;
+        color: #232f3e;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 3px;
+        box-sizing: border-box;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+      }
+      input[type="submit"] {
+        background-color: #f0c14b;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+      input[type="submit"]:hover {
+        background-color: #ff9900;
+      }
+      p {
+        text-align: center;
+      }
+      a {
+        color: #232f3e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign Up</h1>
+      <form action="#" method="post">
+        <label for="email">Email or mobile phone number</label>
+        <input type="email" id="email" name="email" required />
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+        <input type="submit" value="Sign Up" />
+      </form>
+      <p>
+        Already have an account? <a href="#">Sign In</a>
+      </p>
+      <p>
+        <a href="#">Forgot Password?</a>
+      </p>
+    </div>
+  </body>
+</html>
